@@ -1,0 +1,143 @@
+/* :root
+{
+    --bg-black-100:#e9e8e9;
+    --bg-blue-100:#8869dc;
+    --bg-black-50:#f3eded;
+    --text-black-900:#121212;
+    --text-black-700:#070608;
+    --text-white-500:#f4f4f4;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/banner-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav
+{
+    width: 85%;
+    height: 60px;
+    border-radius: 50px;
+    background: var(--bg-black-100);
+    display: flex;
+}
+.logo
+{
+    flex-basis: 48%;
+}
+.logo img
+{ 
+    width:28%;
+    padding: 10px;
+}
+
+.menu ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 12px;
+    margin: 7px 0px 0px 0px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.menu ul li:first-child
+{
+    background:var(--bg-blue-100);
+    border-radius: 50px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Mukta:wght@200;300&display=swap');
+body
+{
+    
+    line-height: 2.2;
+    font-family: 'Alkatra', cursive;
+}
+.nav-image
+{
+    background-image: url("images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: auto;
+    padding-bottom: 8=0px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    width: 100%;
+}
+.second-bgimg
+{
+    background-image: url(images/dark-bg.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: auto;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.image-icon
+{
+    margin-left: 40px;
+    padding: 10px;
+}
+.card-text
+{
+    font-size: 12px;
+}
+.card-text-cate
+{
+    margin-left: 145px;
+}
+.third-bgimg
+{
+    background-image: url(images/main-bg.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 40px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.Forth-bgimg
+{
+    background-image: url(images/dark-bg.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.fifth-image
+{
+    background-image: url(images/main-bg.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+
+
+
